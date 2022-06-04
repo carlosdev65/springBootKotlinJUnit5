@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="getBank()" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-06-04T13:28:59" hostname="DESKTOP-DA3UCRJ" time="0.055">
+  <properties/>
+  <testcase name="should return the bank with the given acoount numbedr banks()" classname="tv.codealong.tutorials.springboot.thenreboston.controller.BankControllerTest$GetBank" time="0.055"/>
+  <system-out><![CDATA[2022-06-04 10:28:59.911  INFO 28128 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [tv.codealong.tutorials.springboot.thenreboston.controller.BankControllerTest$GetBank], using SpringBootContextLoader
+2022-06-04 10:28:59.913  INFO 28128 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [tv.codealong.tutorials.springboot.thenreboston.controller.BankControllerTest$GetBank]: no resource found for suffixes {-context.xml, Context.groovy}.
+2022-06-04 10:28:59.913  INFO 28128 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [tv.codealong.tutorials.springboot.thenreboston.controller.BankControllerTest$GetBank]: GetBank does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2022-06-04 10:28:59.923  INFO 28128 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration tv.codealong.tutorials.springboot.thenreboston.TheNewBostonApplication for test class tv.codealong.tutorials.springboot.thenreboston.controller.BankControllerTest$GetBank
+2022-06-04 10:28:59.923  INFO 28128 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2022-06-04 10:28:59.931  INFO 28128 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6e46891d, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@48632f69, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@5fde1d64, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5350ab17, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@984de01, org.springframework.test.context.support.DirtiesContextTestExecutionListener@58cda03f, org.springframework.test.context.event.EventPublishingTestExecutionListener@7757a37f, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2109a691, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@e521067, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@3bab95ca, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@71ad959b, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@1d7c9811, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@3b362f1]
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /api/banks/1234
+       Parameters = {}
+          Headers = []
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = tv.codealong.tutorials.springboot.thenreboston.controller.BankController
+           Method = tv.codealong.tutorials.springboot.thenreboston.controller.BankController#getBank(String)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Type:"application/json"]
+     Content type = application/json
+             Body = {"accountNumber":"1234","trust":3.14,"transactionFee":17}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
