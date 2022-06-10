@@ -39,5 +39,6 @@ class BankController(private val service: BankService) {
     @ResponseStatus(HttpStatus.CREATED)
     fun addBanck(@RequestBody bank: Bank): Bank = service.addBank(bank)
 
+    fun updateBank(@RequestBody bank: Bank): Bank = bank // TODO
 
 }
